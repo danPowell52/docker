@@ -30,7 +30,7 @@ RUN \
 ENV JAVA_HOME /usr/lib/jvm/java-8-oracle
 
 # add payara user, download payara nightly build and unzip
-RUN useradd -b /opt -m -s /bin/bash payara && echo payara:payara | chpasswd -e
+RUN useradd -b /opt -m -s /bin/bash payara && echo sudo payara:payara | chpasswd -e
 RUN cd /opt && curl -O $PAYARA_PKG && unzip $PKG_FILE_NAME && rm $PKG_FILE_NAME
 RUN chown -R payara:payara /opt/payara41*
 RUN apt-get clean

@@ -1,6 +1,6 @@
-The Dockerfile contains docker commands used to build a new Payara docker image running on OpenJDK 8 on ubuntu. It will build a docker image based on Payara version 4.1.152.1.
+The Dockerfile contains docker commands used to build a new Payara docker image running on OpenJDK 8 on ubuntu. It will build a docker image based on Payara version 4.1.153
 
 Usage
 =====
 
-To build a new payara 4.1.152.1 docker image execute: ./buildimage.sh
+To build a new payara 4.1.153 docker image execute: ./buildimage.sh

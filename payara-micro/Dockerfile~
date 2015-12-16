@@ -5,7 +5,7 @@ FROM ubuntu
 # ----------
 MAINTAINER David Winters <dwinters@c2b2.co.uk>
 
-ENV PAYARA_PKG search.maven.org/remotecontent?filepath=fish/payara/extras/payara-micro/4.1.153/payara-micro-4.1.153.jar
+ENV PAYARA_PKG search.maven.org/remotecontent?filepath=fish/payara/extras/payara-micro/4.1.1.154/payara-micro-4.1.1.154.jar
 ENV PKG_FILE_NAME payara-micro.jar
 
 #Install packages on ubuntu base image
